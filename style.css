@@ -1,0 +1,65 @@
+* {
+    color: #69696a;
+}
+
+body {
+    background-color: #f9fafc;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.header-nav li {
+    list-style: none;
+}
+
+.header-nav .hire-us, .footer-nav li {
+    list-style: none;
+    text-align: center;
+}
+
+.header-nav a, .footer-nav a, .call-to-action{
+    text-decoration: none;
+    text-align: center;
+}
+
+.hire-us, .call-to-action {
+    background-color: black;
+    color: #FFF;
+    border-radius: 10px;
+    width: 100%;
+    display: block;
+}
+
+main {
+    margin: 0;
+    padding: 0 40px;
+}
+
+
+footer {
+    position: fixed;
+    bottom: 0;  
+    width: 100%;
+    background-color: rgba(247, 193, 162, 0.7);
+    padding: 0 200px 0 100px;
+    
+}
+
+.footer-nav ul{
+    display: flex; 
+    flex-direction: row;
+    
+}
+
+.footer-nav li {
+    padding: 10px;
+}
+
+
+.chirpus {
+    color: #000; 
+}
+
+p {
+    border-left: 2px solid #69696a;
+    padding: 0 10px;
+}
