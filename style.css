@@ -1,35 +1,37 @@
 /* resets where there was default margin or padding*/
-body, h1, h2, p, ul {
-    margin: 0; 
-    padding: 0;
+body,
+h1,
+h2,
+p,
+ul {
+  margin: 0;
+  padding: 0;
 }
 
 * {
   color: #69696a;
 }
 
-
 body {
-    background-color: #f9fafc;
-    font-family: "Open Sans", sans-serif;
-    margin: 20px;
+  background-color: #f9fafc;
+  font-family: "Open Sans", sans-serif;
+  margin: 20px;
 }
 
 h1 {
-    font-size: 16px;
+  font-size: 16px;
 }
-
 
 .header-nav ul {
-    margin: 5px 0;
+  margin: 5px 0;
 }
 
-.header-nav li, 
+.header-nav li,
 .footer-nav li {
   list-style: none;
 }
 
-.header-nav .hire-us{
+.header-nav .hire-us {
   list-style: none;
   text-align: center;
   width: 100%;
@@ -55,17 +57,17 @@ h1 {
 }
 
 h2 {
-    font-size: 26px;
-    margin: 10px 0;
+  font-size: 26px;
+  margin: 10px 0;
 }
 
 main {
-    margin-top: 20px;
+  margin-top: 20px;
 }
 main p {
-    border-left: 2px solid #69696a;
-    padding-left: 10px;
-  }
+  border-left: 2px solid #69696a;
+  padding-left: 10px;
+}
 
 footer {
   position: fixed;
@@ -80,18 +82,75 @@ footer {
 }
 
 .footer-nav a {
-    text-decoration: none;
-    padding: 5px;
+  text-decoration: none;
+  padding: 5px;
 }
 
 .footer-nav ul {
-    display: flex;
+  display: flex;
 }
 
 .chirpus {
   color: #000;
 }
 
+@media only screen and (min-width: 768px) {
+  main {
+    display: flex;
+    justify-content: space-between;
+  }
+  header{
+    display: flex;
+    justify-content: space-between;
+  }
+  .header-nav ul {
+    display: flex;
+  }
 
+  .header-nav a {
+    padding: 10px;
+  }
 
+  .hire-us {
+    transform: translateY(-15px);
+    border-radius: 20px;
+  }
 
+  .left {
+    width: 50%;
+  }
+
+  .circle {
+    position: relative;
+  
+  }
+
+  .big {
+    background-color: rgba(247, 136, 167, 0.6);
+    width: 240px;
+    height: 240px;
+    border-radius: 100%;
+    top: 5%;
+    right: 30%;
+  }
+
+  .medium {
+    background-color: rgba(247, 193, 162, 0.7);
+    width: 175px;
+    height: 175px;
+    border-radius: 100%;
+    left: 20%;
+    bottom: 17%;
+  }
+
+  .small {
+    background-color: rgba(207, 130, 213, 0.6);
+    width: 140px;
+    height: 140px;
+    border-radius: 100%;
+    position: absolute;
+    top: 25%; 
+    left: 86%; 
+
+  }
+}
