@@ -102,9 +102,12 @@ footer {
   header{
     display: flex;
     justify-content: space-between;
+    align-items: center;
   }
+
   .header-nav ul {
     display: flex;
+    align-items: center; 
   }
 
   .header-nav a {
@@ -112,7 +115,6 @@ footer {
   }
 
   .hire-us {
-    transform: translateY(-15px);
     border-radius: 20px;
   }
 
@@ -139,8 +141,8 @@ footer {
     width: 175px;
     height: 175px;
     border-radius: 100%;
-    left: 20%;
-    bottom: 17%;
+    left: 25%;
+    bottom: 20%;
   }
 
   .small {
@@ -150,7 +152,7 @@ footer {
     border-radius: 100%;
     position: absolute;
     top: 25%; 
-    left: 86%; 
+    left: 83%; 
 
   }
 }
